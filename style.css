@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+#CB {
+    background:
+        linear-gradient(135deg, #0000 20.5%, #282828 0 29.5%, #0000 0) 0 16px,
+        linear-gradient(45deg, #0000 8%, #282828 0 17%, #0000 0 58%) 32px 0,
+        linear-gradient(135deg, #0000 8%, #282828 0 17%, #0000 0 58%, #282828 0 67%, #0000 0),
+        linear-gradient(45deg, #0000 8%, #282828 0 17%, #0000 0 58%, #282828 0 67%, #0000 0 83%, #282828 0 92%, #0000 0),
+        #000000;
+    background-size: 64px 64px;
+    width: 50%;
+    align-self: center;
+    border: solid 5px black;
+    border-radius: 25px;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+#CB-Line {
+    display: flex;
+    justify-content: space-between;
+}
+
+#BankAccount {
+    display: flex;
+    flex-direction: column;
+}
+
+#BankAccount span:nth-child(2) {
+    font-size: 50px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+
+#clickToMakeMoney {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    border-radius: 25px;
+    padding: 100px 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#clickToMakeMoney div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#ClickZone{
+    display: flex;
+    justify-content: center;
+}
+
+#clickToMakeMoney div i{
+    font-size: 90px;
+}
+
+#Niveau{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#progress{
+    color: green;
+}
+
+section div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-with-icons{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
